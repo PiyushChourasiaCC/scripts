@@ -1,0 +1,16 @@
+/**
+ * INTEGRATION BEST PRACTICES
+ */
+
+// API Integration
+
+RULE = Use Named Credentials for external endpoints
+RULE = Implement callout retry logic
+RULE = Follow API rate limiting best practices
+RULE = Implement proper error handling for callouts
+
+// Data Integration
+
+RULE = Use Bulk API for large data volumes
+RULE = Validate data before processing
+RULE = Implement proper data quality checks

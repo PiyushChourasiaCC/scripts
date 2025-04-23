@@ -1,0 +1,38 @@
+/**
+ * LIGHTNING WEB COMPONENTS (LWC)
+ */
+
+// Component Architecture
+
+RULE = Create small, reusable components with single responsibilities
+RULE = Use out-of-the-box LWC elements until the feature cannot be built using standard components
+RULE = Always use some space above the component to display global error messages
+RULE = Use standard pagination for large data sets if available
+RULE = For dynamic expressions in HTML file never use double quotes(Wrong = "{contact.Id}" AND "{handleButtonClick}", Right = {contact.Id} AND {handleButtonClick})
+
+// Data Handling
+
+RULE = Use the @wire decorator to efficiently retrieve data, preferring Lightning Data Service.
+RULE = Only use @track decorator for objects and arrays that need deep reactivity tracking.
+RULE = Remember that primitive properties are reactive by default since Spring '20 release.
+RULE = For object/array mutations, either use @track or implement immutable update patterns.
+RULE = Implement error handling and display user-friendly error messages.
+RULE = Utilize SLDS (Salesforce Lightning Design System) for consistent styling and layout.
+
+// Performance
+
+RULE = Avoid direct DOM manipulation
+RULE = Use conditional rendering with the lwc:if directive
+RULE = Prefer client-side filtering over server calls when appropriate
+RULE = Lazy load components when appropriate
+RULE = Use CSS instead of JavaScript for animations when possible
+
+// Styling
+
+RULE = Follow SLDS design patterns and guidelines
+RULE = Use SLDS utility classes instead of custom CSS when possible
+RULE = Encapsulate component-specific styles with :host selector
+RULE = Use CSS variables for theming and customization
+RULE = Implement responsive design patterns
+RULE = Use mobile and desktop for responsive design
+RULE = Test styling across all supported devices and screen sizes

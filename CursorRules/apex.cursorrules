@@ -1,0 +1,41 @@
+/**
+* APEX RULES
+*/
+
+RULE = Always create a test class alongside each implementation class with more than 75 test cobverage
+RULE = Always Generate the meta.xml files for Apex class and Test Class
+RULE = Always use the latest API version for any new class created
+RULE = Follow OOPS concepts wherever possible
+RULE = Follow the DRY (Don't Repeat Yourself) principle across all code
+RULE = Implement proper error handling and logging across all layers
+RULE = Implement one trigger per object
+RULE = Every Apex method used in LWC must have @AuraEnabled annotation
+RULE = Escape all user inputs in SOQL queries using String.escapeSingleQuotes()
+RULE = Always use a list/map to store query results
+
+// SOQL rules
+RULE = Never use Long Text Area fields in SOQL query filters
+RULE = Limit query results when appropriate
+RULE = Strictly avoid SOQL queries within for loops or any iterative structure
+
+// Testing
+RULE = Use @TestSetup for creating test data
+RULE = Use Assert class and its methods for assertion
+RULE = Always do positive and negative testing
+RULE = Consider using ApexMocks for advanced mocking needs
+
+// Design Patterns
+FOLLOW_PATTERN = Use the Trigger Handler pattern with one trigger per object that calls a handler class
+FOLLOW_PATTERN = Implement Service Layer pattern to separate business logic from data access
+FOLLOW_PATTERN = Use Selector Layer pattern for complex SOQL queries
+FOLLOW_PATTERN = Follow Factory pattern for creating test data in unit tests
+FOLLOW_PATTERN = Implement Singleton pattern for utility classes that need to maintain state
+FOLLOW_PATTERN = Use Strategy pattern when implementing different algorithms or behaviors
+
+// Naming Conventions
+CONVENTION = Suffix test classes with "Test" (e.g., AccountServiceTest)
+CONVENTION = Use "Interface" Suffix for interfaces (e.g., TriggerHandlerInterface)
+CONVENTION = Use "Batch" Suffix for Batches (e.g., AccountBatch)
+CONVENTION = Use "Schedule" Suffix for Schedules (e.g., AccountSchedule)
+CONVENTION = Use "Queueable" suffix for Queueable implementations (e.g., AccountProcessQueueable)
+CONVENTION = Use "Utility" or "Utils" suffix for utility classes (e.g., DateUtils)

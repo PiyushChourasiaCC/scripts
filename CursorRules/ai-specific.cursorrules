@@ -1,0 +1,10 @@
+/**
+ * AI-SPECIFIC GUIDANCE RULES
+ */
+
+RULE = Follow Salesforce platform limitations and governor limits
+RULE = Use declarative solutions before custom code when appropriate
+RULE = Include commented explanations of complex logic
+RULE = Provide git commit message templates with code generation
+RULE = If you use any image, icon, or other media, make sure to add it to the static resource folder and reference it correctly
+RULE = Consider scalability in all code solutions

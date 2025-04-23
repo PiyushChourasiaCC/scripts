@@ -1,0 +1,9 @@
+/**
+ * CUSTOM FIELDS RULES
+ */
+
+RULE = Always add a meaningful description to every custom field
+RULE = Create help text for user-facing fields
+RULE = Use consistent naming conventions for fields
+RULE = Consider reporting implications when creating fields
+RULE = Implement validation rules when appropriate

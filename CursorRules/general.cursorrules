@@ -1,0 +1,26 @@
+/**
+ * GENERAL RULES
+ */
+
+// REQUIRED CLASS COMMENT FORMAT - EXACT TEMPLATE TO BE USED FOR ALL CLASSES
+
+/**
+* @description       : The purpose of the class
+* @author            : {CURRENT_USER}
+* @group             : Plumcloud Labs
+* @last modified on  : {CURRENT_DATE}
+* @last modified by  : {CURRENT_USER}
+**/
+
+Important notes:
+RULE = Replace {CURRENT_USER} with the name of the current user (the person who is logged into Cursor)
+RULE =  Replace {CURRENT_DATE} with today's date in YYYY-MM-DD format
+RULE =  Always use the current date when generating or modifying code
+
+// REQUIRED METHOD COMMENT FORMAT - EXACT TEMPLATE TO BE USED FOR ALL METHODS
+
+/**
+    * @description: Purpose of the method
+    * @param paramName     - Description of the parameter
+    * @return returnType   - Description of what is being returned
+*/
