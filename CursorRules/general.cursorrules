@@ -2,6 +2,8 @@
  * GENERAL RULES
  */
 
+ NOTE: This is a Salesforce project leveraging the Salesforce CLI. 
+
 // REQUIRED CLASS COMMENT FORMAT - EXACT TEMPLATE TO BE USED FOR ALL CLASSES
 
 /**
